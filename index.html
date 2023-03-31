@@ -14,9 +14,9 @@
     <img src="images/me.jpg" alt="" width="400px" height="300px">
     <button onclick="next()" class="next">Next</button>
     <script>
-        var photos = ["images/me.jpg","images/shahadat.jpg","images/hack.jpg","images/shahadat2.jpg"];
-        var image = document.querySelector("img");
-        var count = 0;
+        let photos = ["images/me.jpg","images/shahadat.jpg","images/hack.jpg","images/shahadat2.jpg"];
+        let image = document.querySelector("img");
+        let count = 0;
         function next(){
             count++;
             if(count>=photos.length){
